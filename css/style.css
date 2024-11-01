@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  color: #333333;
+}
+
+/* Timer Container */
+.timer-container {
+  text-align: center;
+}
+
+/* Timer Display */
+.timer-display {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 28px;
+  margin: 20px 0;
+  color: #333333;
+}
+
+/* Input and Buttons */
+.timer-input {
+  font-size: 18px;
+  padding: 5px 10px;
+  width: 100px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.button {
+  font-size: 16px;
+  color: white;
+  background-color: #2ECC71;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #28b165;
+}
+
+/* Color Indicator for Last 10 Seconds */
+.red {
+  color: red;
+}
+
+/* Footer Styling */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #222;
+  text-align: center;
+  font-size: 14px;
+  color: #bbb;
+}
+
+footer a {
+  color: #fff6f6;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
